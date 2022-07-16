@@ -1,4 +1,4 @@
-# Sumit Yadav // @Simple_Mundaa
+# Kamal Babayev // Kamal
 
 import os
 from pyrogram import Client, filters
