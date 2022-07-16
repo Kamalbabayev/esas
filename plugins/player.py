@@ -1,4 +1,4 @@
-# Sumit Yadav // @Simple_Mundaa
+# Kamal Babayev // Kamal
 
 import os
 import aiofiles
@@ -89,7 +89,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     draw.text((190, 630), f"Views: {views}", (255, 255, 255), font=font)
     draw.text(
         (190, 670),
-        f"Powered By: Sumit Yadav (@Simple_Mundaa)",
+        f"Powered By: Kamal Babayev (@Hedefs1z)",
         (255, 255, 255),
         font=font,
     )
@@ -141,12 +141,12 @@ async def play(_, message: Message):
                     pass
                 except Exception:
                     await lel.edit(
-                        f"**ᴘʟᴇᴀsᴇ ᴍᴀɴᴜᴀʟʟʏ ᴀᴅᴅ ᴀssɪsᴛᴀɴᴛ ᴏʀ ᴄᴏɴᴛᴀᴄᴛ [sᴜᴍɪᴛ ʏᴀᴅᴀᴠ](https://t.me/Simple_Mundaa)** ")
+                        f"**ᴘʟᴇᴀsᴇ ᴍᴀɴᴜᴀʟʟʏ ᴀᴅᴅ ᴀssɪsᴛᴀɴᴛ ᴏʀ ᴄᴏɴᴛᴀᴄᴛ [sᴜᴍɪᴛ ʏᴀᴅᴀᴠ](https://t.me/Hedefs1z)** ")
     try:
         await USER.get_chat(chid)
     except:
         await lel.edit(
-            f"**ᴘʟᴇᴀsᴇ ᴍᴀɴᴜᴀʟʟʏ ᴀᴅᴅ ᴀssɪsᴛᴀɴᴛ ᴏʀ ᴄᴏɴᴛᴀᴄᴛ [sᴜᴍɪᴛ ʏᴀᴅᴀᴠ](https://t.me/Simple_Mundaa)*")
+            f"**ᴘʟᴇᴀsᴇ ᴍᴀɴᴜᴀʟʟʏ ᴀᴅᴅ ᴀssɪsᴛᴀɴᴛ ᴏʀ ᴄᴏɴᴛᴀᴄᴛ [sᴜᴍɪᴛ ʏᴀᴅᴀᴠ](https://t.me/Hedefs1z)*")
         return
     
     audio = (
@@ -172,8 +172,8 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
              [
             [
-                InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛs", url=f"https://t.me/TechQuardSupport"),
-                InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/TechQuard"),
+                InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛs", url=f"https://t.me/bizimortammm"),
+                InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/Hedefs1z"),
             ]
         ]
     )
@@ -209,8 +209,8 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
              [
             [
-                InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛs", url=f"https://t.me/TechQuardSupport"),
-                InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/TechQuard"),
+                InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛs", url=f"https://t.me/bizimortammm"),
+                InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/Hedefs1z"),
             ]
         ]
     )
@@ -223,8 +223,8 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
              [
             [
-                InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛs", url=f"https://t.me/TechQuardSupport"),
-                InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/TechQuard"),
+                InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛs", url=f"https://t.me/bizimortammm"),
+                InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/Hedefs1z"),
             ]
         ]
     )
@@ -275,8 +275,8 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
              [
             [
-                InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛs", url=f"https://t.me/TechQuardSupport"),
-                InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/TechQuard"),
+                InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛs", url=f"https://t.me/bizimortammm"),
+                InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/Hedefs1z"),
             ]
         ]
     )
